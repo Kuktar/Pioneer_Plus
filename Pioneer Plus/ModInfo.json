@@ -1,0 +1,11 @@
+{
+    "id": "[author_name].custom_scenario_pioneer_plus",
+    "name": "Custom Scenario Pioneer Plus",
+    "description": "Add some description here...",
+    "author": "[author_name]",
+    "modVersion": "0.1",
+    "gameVersion": "1.0.43",
+    "tags": [
+        "Scenario"
+    ]
+}

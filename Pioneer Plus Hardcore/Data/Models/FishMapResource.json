@@ -1,0 +1,109 @@
+{
+  "repository": [
+    {
+      "id": "fish_trout",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_fish_trout",
+          "info": "animal_info_fish_trout"
+        }
+      ],
+      "prefabIDs": [
+        "fish_trout_01"
+      ],
+      "pathfindingPenalty": 2000,
+      "storedResources": [
+        {
+          "blueprintId": "trout_fish",
+          "amount": 8
+        }
+      ],
+      "fishingCount": 8,
+      "miningTool": "FishingRod",
+      "miningDuration": 70,
+      "chanceToFail": 0.15,
+      "lifespan": 9,
+      "lifespanRandomRange": 
+      {
+        "min": -3,
+        "max": 3
+      },
+      "newFishTemperatureLimit": 2,
+      "newFishPerDay": 0.75,
+      "neighborCheck": 2,
+      "canSpawnOnZeroCount": true,
+      "maxCount": 20
+    },
+    {
+      "id": "fish_pike",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_fish_pike",
+          "info": "animal_info_fish_pike"
+        }
+      ],
+      "prefabIDs": [
+        "fish_pike_01"
+      ],
+      "pathfindingPenalty": 2000,
+      "storedResources": [
+        {
+          "blueprintId": "pike_fish",
+          "amount": 50
+        }
+      ],
+      "fishingCount": 1,
+      "miningTool": "FishingRod",
+      "miningDuration": 80,
+      "chanceToFail": 0.25,
+      "lifespan": 15,
+      "lifespanRandomRange": 
+      {
+        "min": -3,
+        "max": 3
+      },
+      "newFishTemperatureLimit": 2,
+      "newFishPerDay": 0.4,
+      "neighborCheck": 2,
+      "canSpawnOnZeroCount": true,
+      "maxCount": 15
+    },
+    {
+      "id": "eel",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "animal_name_eel",
+          "info": "animal_info_eel"
+        }
+      ],
+      "prefabIDs": [
+        "eel_01"
+      ],
+      "pathfindingPenalty": 2000,
+      "storedResources": [
+        {
+          "blueprintId": "eel",
+          "amount": 5
+        }
+      ],
+      "fishingCount": 6,
+      "miningTool": "FishingRod",
+      "miningDuration": 50,
+      "chanceToFail": 0.05,
+      "lifespan": 13,
+      "lifespanRandomRange": 
+      {
+        "min": -3,
+        "max": 3
+      },
+      "newFishTemperatureLimit": 2,
+      "newFishPerDay": 0.5,
+      "neighborCheck": 2,
+      "canSpawnOnZeroCount": true,
+      "maxCount": 45
+    }
+  ]
+}

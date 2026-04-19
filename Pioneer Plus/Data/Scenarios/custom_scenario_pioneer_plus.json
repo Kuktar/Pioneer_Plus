@@ -1,0 +1,279 @@
+{
+    "repository": [
+        {
+            "id": "custom_scenario_pioneer_plus",
+            "locKeys": [
+                {
+                    "languageName": "English",
+                    "name": "Pioneer Plus",
+                    "info": "Pioneer Plus",
+                    "description": "Pioneer Plus",
+                    "type": "",
+                    "tooltipLines": [],
+                    "tooltipNotes": [],
+                    "variations": []
+                }
+            ],
+            "imageId": "scenario_hard",
+            "difficulty": "scenario_difficulty_Difficult",
+            "startSeason": 0,
+            "startHour": 1,
+            "startEventId": "",
+            "startingEventScheduleId": "default_3",
+            "startMapTypes": [
+                "map_type_mountain"
+            ],
+            "villagerConstraints": {
+                "numberOfVillagers": 3,
+                "ageMin": 22,
+                "ageMax": 70,
+                "heightMin": 100,
+                "heightMax": 190,
+                "weightMin": 45,
+                "weightMax": 120,
+                "forceBodyType": 50,
+                "forceReligion": 50,
+                "defaultClothes": [
+                    "good_linen_winter_clothes",
+                    "good_linen_winter_clothes",
+                    "good_linen_winter_clothes"
+                ],
+                "overrideStats": [],
+                "forcedPerks": []
+            },
+            "startingResources": [
+                {
+                    "id": "packaged_meal",
+                    "value": 25.0
+                },
+                {
+                    "id": "healing_kit_simple",
+                    "value": 10.0
+                },
+                {
+                    "id": "wood",
+                    "value": 200.0
+                },
+                {
+                    "id": "hay",
+                    "value": 200.0
+                },
+                {
+                    "id": "barley",
+                    "value": 35.0
+                },
+                {
+                    "id": "ale",
+                    "value": 25.0
+                },
+                {
+                    "id": "cabbage_seed",
+                    "value": 35.0
+                }
+            ],
+            "startingEquipment": [
+                {
+                    "id": "good_steel_short_sword",
+                    "value": 1.0
+                },
+                {
+                    "id": "good_wood_short_bow",
+                    "value": 2.0
+                },
+                {
+                    "id": "good_wood_buckler_shield",
+                    "value": 1.0
+                },
+                {
+                    "id": "good_linen_gambeson_armor",
+                    "value": 3.0
+                },
+                {
+                    "id": "good_leather_light_helmet",
+                    "value": 3.0
+                }
+            ],
+            "startingStructurePiles": [],
+            "technologyUnlocked": [],
+            "startingAnimals": [
+                {
+                    "id": "dog",
+                    "bodyType": 1,
+                    "count": 1,
+                    "lifePhaseIndex": 0,
+                    "animalType": 2
+                },
+                {
+                    "id": "dog",
+                    "bodyType": 2,
+                    "count": 1,
+                    "lifePhaseIndex": 0,
+                    "animalType": 2
+                }
+            ],
+            "gameParameters": [
+                {
+                    "id": "raidPointsMultiplier",
+                    "value": 2.299999952316284
+                },
+                {
+                    "id": "raidStrengthMultiplier",
+                    "value": 3.0
+                },
+                {
+                    "id": "woundSeverityMultiplier",
+                    "value": 1.2000000476837159
+                },
+                {
+                    "id": "animalSpawnMultiplier",
+                    "value": 0.399999988079071
+                },
+                {
+                    "id": "plantYieldMultiplier",
+                    "value": 0.800000011920929
+                },
+                {
+                    "id": "moodTarget",
+                    "value": 0.6000000238418579
+                },
+                {
+                    "id": "enemyHPMax",
+                    "value": 1.0
+                },
+                {
+                    "id": "healthRecoverySpeed",
+                    "value": 1.0
+                },
+                {
+                    "id": "rottingSpeed",
+                    "value": 1.0
+                },
+                {
+                    "id": "decomposeSpeed",
+                    "value": 1.0
+                },
+                {
+                    "id": "tradingValue",
+                    "value": 0.800000011920929
+                },
+                {
+                    "id": "huntingRetailateChance",
+                    "value": 1.2000000476837159
+                },
+                {
+                    "id": "globalWorkSpeed",
+                    "value": 1.0
+                },
+                {
+                    "id": "useSeeds",
+                    "value": 1.0
+                },
+                {
+                    "id": "enemiesHaveTrebuchet",
+                    "value": 1.0
+                },
+                {
+                    "id": "mineYieldMultiplier",
+                    "value": 0.800000011920929
+                },
+                {
+                    "id": "fireSpreadSpeedMultiplier",
+                    "value": 1.0
+                },
+                {
+                    "id": "runawayEvent",
+                    "value": 15.0
+                },
+                {
+                    "id": "thundertstormEvent",
+                    "value": 35.0
+                },
+                {
+                    "id": "CellarFloodEvent",
+                    "value": 35.0
+                },
+                {
+                    "id": "hailstormEvent",
+                    "value": 35.0
+                },
+                {
+                    "id": "blightEvent",
+                    "value": 35.0
+                },
+                {
+                    "id": "coldsnapEvent",
+                    "value": 35.0
+                },
+                {
+                    "id": "heatwaveEvent",
+                    "value": 35.0
+                },
+                {
+                    "id": "animalRaidEvent",
+                    "value": 35.0
+                },
+                {
+                    "id": "animalInfestationEvent",
+                    "value": 40.0
+                },
+                {
+                    "id": "newWorkerEvent",
+                    "value": 10.0
+                },
+                {
+                    "id": "enemyRaidEvent",
+                    "value": 55.0
+                },
+                {
+                    "id": "merchantGeneralEvent",
+                    "value": 10.0
+                },
+                {
+                    "id": "merchantRareEvent",
+                    "value": 10.0
+                },
+                {
+                    "id": "merchantPrisonerEvent",
+                    "value": 10.0
+                },
+                {
+                    "id": "visitorEvent",
+                    "value": 10.0
+                },
+                {
+                    "id": "visitorRoleEvent",
+                    "value": 10.0
+                },
+                {
+                    "id": "animalMiscSmallEvent",
+                    "value": 5.0
+                },
+                {
+                    "id": "animalWildLargeEvent",
+                    "value": 5.0
+                },
+                {
+                    "id": "animalDomesticSingleEvent",
+                    "value": 1.0
+                },
+                {
+                    "id": "animalBearSingleEvent",
+                    "value": 6.0
+                },
+                {
+                    "id": "caravanAmbushChanceMultiplier",
+                    "value": 0.30000001192092898
+                }
+            ],
+            "allowedObjectives": [
+                "objective_religious",
+                "objective_pagan",
+                "objective_intellectual",
+                "objective_military",
+                "objective_trade",
+                "objective_infamy"
+            ],
+            "modifiedOnVersion": "1.0.72"
+        }
+    ]
+}

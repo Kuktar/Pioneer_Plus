@@ -1,0 +1,60 @@
+{
+  "repository": [
+    {
+		"id" : "rain",
+		"eventType": "Rain",
+		"animationName" : "rainDayNightAnim",
+		"textKey" : "weather_rain",
+		"fadeInHours" : 1.4,
+		"fadeOutHours" : 1.4,
+		"skipIfExists" : ["snow", "fog"],
+		"temperature" : {
+			"min": -10, 
+			"max": 40
+		},
+		"effectors": ["VisibilityRain","WashoutRainPerkEffector"],
+		"temperatureAdd" : -1, 
+		"minDurationMinutes" :  180, 
+		"enableKeywordOnStart": ["_GLOBAL_WEATHER_RAIN_ON"],
+		"ignoredWhenGameEventsRunning": ["game_event_thunderstorm","game_event_hailstorm","game_event_heat_wave"],
+		"skipFirstHours": 60
+    },
+    {
+		"id" : "fog",
+		"eventType": "Fog",
+		"animationName" : "fogAnim",
+		"textKey" : "weather_fog",
+		"fadeInHours" : 0.8,
+		"fadeOutHours" : 0.8,
+		"skipIfExists" : ["rain", "snow"],
+		"temperature" : {
+			"min": -30, 
+			"max": 40
+		},
+		"effectors": ["VisibilityFog"],
+		"temperatureAdd" : 0, 
+		"minDurationMinutes" :  120, 
+		"enableKeywordOnStart": [],
+		"skipFirstHours": 48,
+		"ignoredWhenGameEventsRunning": ["game_event_thunderstorm","game_event_hailstorm","game_event_heat_wave"]
+    },
+    {
+		"id" : "snow",
+		"eventType": "Snow",
+		"animationName" : "snowAnim",
+		"textKey" : "weather_snow",
+		"fadeInHours" : 0.8,
+		"fadeOutHours" : 0.8,
+		"skipIfExists" : ["rain", "fog"],
+		"temperature" : {
+			"min": -50, 
+			"max": 5
+		},
+		"effectors": ["VisibilitySnow","SnowWhiteSnowPerkEffector"],
+		"temperatureAdd" : -3, 
+		"minDurationMinutes" :  300, 
+		"enableKeywordOnStart": ["_GLOBAL_WEATHER_SNOW_ON"],
+		"ignoredWhenGameEventsRunning": ["game_event_thunderstorm"]
+    }
+  ]
+}
